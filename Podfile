@@ -8,6 +8,7 @@ target 'chachat' do
   # Pods for chachat
 pod 'Firebase/Core'
 pod 'Firebase/Database'
+pod 'Firebase/Auth'
 
   target 'chachatTests' do
     inherit! :search_paths

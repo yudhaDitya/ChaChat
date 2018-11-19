@@ -7,8 +7,18 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        if (Auth.auth().currentUser == nil) {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "firebaseLoginViewController")
+            self.navigationController?.present(vc!, animated: true, completion: nil)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
