@@ -34,6 +34,7 @@ class LoginRegisterViewController: UIViewController {
     }
     
     @IBAction func loginClicked(_ sender: Any) {
+        print("login clicked")
         if((emailTextField.text?.characters.count)! < 5)
         {
             emailTextField.backgroundColor = UIColor.init(red: 0.8, green: 0, blue: 0, alpha: 0.2)
@@ -53,6 +54,7 @@ class LoginRegisterViewController: UIViewController {
         
         Auth.auth().signIn(withEmail:email!, password:password!, completion:{(user, error) in
             if let error = error {
+                Utilities().showAlert(title: "Error", message: error.localizedDescription, vc: self)
                 print(error.localizedDescription)
                 return
             }

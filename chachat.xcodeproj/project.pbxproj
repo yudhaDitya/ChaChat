@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1ECD8A21A31F3400C78E74 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1ECD8921A31F3400C78E74 /* Utilities.swift */; };
 		5AA2D1FF21A29E3C00B80E63 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */; };
 		5AC803B82193270C00497C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC803B72193270C00497C60 /* AppDelegate.swift */; };
 		5AC803BA2193270C00497C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC803B92193270C00497C60 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		341B0B79A15D1904A9E91E1C /* Pods-chachatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chachatUITests/Pods-chachatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1ECD8921A31F3400C78E74 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
 		5AC803B42193270C00497C60 /* chachat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chachat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC803B72193270C00497C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5AC803C02193270D00497C60 /* LaunchScreen.storyboard */,
 				5AC803C32193270D00497C60 /* Info.plist */,
 				5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */,
+				5A1ECD8921A31F3400C78E74 /* Utilities.swift */,
 			);
 			path = chachat;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			files = (
 				5AA2D1FF21A29E3C00B80E63 /* LoginRegisterViewController.swift in Sources */,
 				5AC803BA2193270C00497C60 /* ViewController.swift in Sources */,
+				5A1ECD8A21A31F3400C78E74 /* Utilities.swift in Sources */,
 				5AC803B82193270C00497C60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
