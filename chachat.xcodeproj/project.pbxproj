@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA2D1FF21A29E3C00B80E63 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */; };
 		5AC803B82193270C00497C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC803B72193270C00497C60 /* AppDelegate.swift */; };
 		5AC803BA2193270C00497C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC803B92193270C00497C60 /* ViewController.swift */; };
 		5AC803BD2193270C00497C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC803BB2193270C00497C60 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		341B0B79A15D1904A9E91E1C /* Pods-chachatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chachatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chachatUITests/Pods-chachatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
 		5AC803B42193270C00497C60 /* chachat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chachat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC803B72193270C00497C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC803B92193270C00497C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				5AC803BE2193270D00497C60 /* Assets.xcassets */,
 				5AC803C02193270D00497C60 /* LaunchScreen.storyboard */,
 				5AC803C32193270D00497C60 /* Info.plist */,
+				5AA2D1FE21A29E3C00B80E63 /* LoginRegisterViewController.swift */,
 			);
 			path = chachat;
 			sourceTree = "<group>";
@@ -305,15 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chachat-checkManifestLockResult.txt",
 			);
@@ -327,15 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chachatTests-checkManifestLockResult.txt",
 			);
@@ -349,15 +344,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chachatUITests-checkManifestLockResult.txt",
 			);
@@ -371,8 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-chachat/Pods-chachat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -380,8 +369,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -399,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA2D1FF21A29E3C00B80E63 /* LoginRegisterViewController.swift in Sources */,
 				5AC803BA2193270C00497C60 /* ViewController.swift in Sources */,
 				5AC803B82193270C00497C60 /* AppDelegate.swift in Sources */,
 			);
